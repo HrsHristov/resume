@@ -1,239 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Source+Sans+Pro:300,400,600,700,900&amp;subset=cyrillic,cyrillic-ext"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <title>Personal resume</title>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Source+Sans+Pro:300,400,600,700,900&amp;subset=cyrillic,cyrillic-ext"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css" type="text/css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <title>Personal resume</title>
-</head>
+    <body>
+        <section class="resume">
+            <header>
+                <div
+                    class="resume__block resoume__name"
+                    style="padding-bottom: 16px"
+                >
+                    <h1><span class="bold">Hristo</span> Hristov</h1>
+                </div>
+                <div class="resume__block contacts">
+                    <div class="contact">
+                        <i class="fas fa-mobile-alt contact__icon"></i>
+                        <a href="tel:+359896202071" class="contact__info"
+                            >+359 896 202 071</a
+                        >
+                    </div>
+                    <div class="contact">
+                        <i class="contact__icon far fa-envelope"></i>
+                        <a <!-- href="mailto:me@hrshristov.com" -->
+                            class="contact__info" > hrshristov@gmail.com
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <i class="contact__icon fab fa-linkedin-in"></i>
+                        <a
+                            href="https://www.linkedin.com/in/hristo-hristov-74226112a/"
+                            class="contact__info"
+                            target="_blank"
+                            >in/HristoHristov</a
+                        >
+                    </div>
+                    <div class="contact">
+                        <i class="contact__icon fab fa-github"></i>
+                        <a
+                            href="https://github.com/HrsHristov"
+                            class="contact__info"
+                            target="_blank"
+                            >Hristo Hristov</a
+                        >
+                    </div>
+                </div>
+            </header>
 
-<body>
-  <section class="resume">
-    <header>
-      <div class="resume__block resoume__name" style="padding-bottom: 16px;">
-        <h1>
-          <span class="bold">Hristo</span> Hristov
-        </h1>
-      </div>
-      <div class="resume__block contacts">
-        <div class="contact">
-          <i class="fas fa-mobile-alt contact__icon"></i>
-          <a href="tel:+359896202071" class="contact__info">+359 896 202 071</a>
-        </div>
-        <div class="contact">
-          <i class="contact__icon far fa-envelope"></i>
-          <a href="mailto:me@hrshristov.com" class="contact__info">
-            hrshristov@gmail.com
-          </a>
-        </div>
-        <div class="contact">
-          <i class="contact__icon fab fa-linkedin-in"></i>
-          <a href="https://www.linkedin.com/in/hristo-hristov-74226112a/" class="contact__info"
-            target="_blank">in/HristoHristov</a>
-        </div>
-        <div class="contact">
-          <i class="contact__icon fab fa-github"></i>
-          <a href="https://github.com/HrsHristov class="contact__info" target="_blank">Hristo Hristov</a>
-        </div>
-      </div>
-    </header>
+            <section class="skills">
+                <h3>Primary skills</h3>
+                <ul class="skill_list">
+                    <li class="skill__item">Python</li>
+                    <li class="skill__item">C#</li>
+                    <li class="skill__item">SQL</li>
+                    <li class="skill__item">Git</li>
+                    <li class="skill__item">JavaScript</li>
+                    <li class="skill__item">TypeScript</li>
+                    <li class="skill__item">ReactJS/NextJS</li>
+                    <li class="skill__item">HTML/CSS</li>
+                    <li class="skill__item">Leadership</li>
+                    <li class="skill__item">Teamwork</li>
+                    <li class="skill__item">Communication</li>
+                    <li class="skill__item">Conflict Resolution</li>
+                    <li class="skill__item">Flexibility</li>
+                    <li class="skill__item">Mentoring</li>
+                </ul>
+            </section>
 
-    <section class="skills">
-      <h3>
-        Primary skills
-      </h3>
-      <ul class="skill_list">
-        <li class="skill__item">Python</li>
-        <li class="skill__item">C#</li>
-        <li class="skill__item">SQL</li>
-        <li class="skill__item">Git</li>
-        <li class="skill__item">JavaScript</li>
-        <li class="skill__item">TypeScript</li>
-        <li class="skill__item">ReactJS/NextJS</li>
-        <li class="skill__item">HTML/CSS</li>
-        <li class="skill__item">Leadership</li>
-        <li class="skill__item">Mentoring</li>
-      </ul>
-    </section>
+            <div class="resume__content">
+                <div>
+                    <div class="resume__block">
+                        <h3>Highlights</h3>
+                        <div class="experience">
+                            <div class="experience__title">
+                                Flat Rock Technology Team Lead
+                            </div>
+                            <div class="experience__duration">
+                                Jan 2024 - Present
+                            </div>
+                            <br />
+                            <div class="experience__description">
+                                <h5>Projects:</h5>
+                                <p>
+                                    The company provides e-Commerce enablement
+                                    and analytics software for multichannel
+                                    brands to convert global customers. With us,
+                                    brands can enable commerce in the places
+                                    where their shoppers spend time and measure
+                                    the omnichannel outcome of those
+                                    interactions.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Developed and maintained automated
+                                        web-scraping pipelines using custom
+                                        frameworks, streamlining data extraction
+                                        from multiple sources and enhancing
+                                        analytics workflows.
+                                    </li>
+                                </ul>
+                                <h5>Responsibilities:</h5>
+                                <ul>
+                                    <li>
+                                        Ensuring seamless client communication.
+                                    </li>
+                                    <li>
+                                        Managed task allocation, sprint
+                                        planning, and backlog grooming to
+                                        optimize team productivity.
+                                    </li>
+                                    <li>
+                                        Monitored progress and deliverables,
+                                        ensuring tasks were completed on time
+                                        and to the expected quality standards.
+                                    </li>
+                                    <li>
+                                        Conducted code reviews to maintain
+                                        coding standards, ensure best practices,
+                                        and provide constructive feedback.
+                                    </li>
+                                    <li>
+                                        Mentored junior team members,
+                                        facilitating their technical skill
+                                        enhancement and career growth.
+                                    </li>
+                                    <li>
+                                        Conflict Resolution and Problem-Solving:
+                                        Identifying and addressing blockers or
+                                        conflicts to keep projects on track.
+                                    </li>
+                                    <li>
+                                        Feedback and Performance Reviews:
+                                        Providing constructive feedback and
+                                        conducting performance evaluations for
+                                        team members.
+                                    </li>
+                                </ul>
+                                <h5>Methodologies:</h5>
+                                <p>
+                                    Agile/Scrum: Led sprint planning, managed
+                                    sprint backlogs, facilitated daily stand-ups
+                                    and retrospectives
+                                </p>
+                                <h5>Technologies used:</h5>
+                                <ul class="skill_list">
+                                    <li class="skill__item">C#</li>
+                                    <li class="skill__item">ElasticSearch</li>
+                                    <li class="skill__item">HtmlAgilityPack</li>
+                                    <li class="skill__item">Puppeteer</li>
+                                    <li class="skill__item">ScrapySharp</li>
+                                    <li class="skill__item">RESTful APIs</li>
+                                    <li class="skill__item">Regex</li>
+                                    <li class="skill__item">
+                                        Minotaur(Interna)
+                                    </li>
+                                    <li class="skill__item">Jira</li>
+                                    <li class="skill__item">Notion</li>
+                                </ul>
+                                <h5>Skills developed:</h5>
+                                <ul class="skill_list">
+                                    <li class="skill__item">Leadership</li>
+                                    <li class="skill__item">Teamwork</li>
+                                    <li class="skill__item">Communication</li>
+                                    <li class="skill__item">
+                                        Confict Resolution
+                                    </li>
+                                    <li class="skill__item">Planning</li>
+                                    <li class="skill__item">Flexibility</li>
+                                    <li class="skill__item">Open-Mindedness</li>
+                                    <li class="skill__item">Problem-Solving</li>
+                                    <li class="skill__item">Decision-Making</li>
+                                    <li class="skill__item">Time Management</li>
+                                    <li class="skill__item">Adaptability</li>
+                                    <li class="skill__item">Integrity</li>
+                                    <li class="skill__item">Self-Learning</li>
+                                </ul>
+                            </div>
+                        </div>
 
-    <div class="resume__content">
-      <div>
-        <div class="resume__block">
-          <h3>
-            Highlights
-          </h3>
-          <div class="experience">
-            <div class="experience__title">
-              Flat Rock Technology Team Lead
-            </div>
-            <div class="experience__duration">
-              Jan 2024 - Present
-            </div>
-            <br>
-            <div class="experience__description">
-              <h5>Projects:</h5>
-              <p>
-                The company provides eCommerce enablement and analytics software for multichannel brands to convert global customers. With us, brands can enable commerce in the places where their shoppers spend time and measure the omnichannel outcome of those interactions.
-              </p>
-              <ul>
-                <li>Creating different types of scraping scripts using our internal tool called Minotaur</li>
-              </ul>
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Ensuring seamless client communication.</li>
-                <li>Task Management: Sprint planning, backlog grooming, and allocating tasks to team members.</li>
-                <li>Monitoring Progress and Deliverables: Ensuring tasks are completed on time and to the quality expected, making adjustments as needed.</li>
+                        <div class="experience">
+                            <div class="experience__title">
+                                Flat Rock Technology C# Developer
+                            </div>
+                            <div class="experience__duration">
+                                Jul 2016 - Dec 2023
+                            </div>
+                            <br />
+                            <div class="experience__description">
+                                <h5>Project:</h5>
+                                <p>
+                                    The company provides e-Commerce enablement
+                                    and analytics software for multichannel
+                                    brands to convert global customers. With us,
+                                    brands can enable commerce in the places
+                                    where their shoppers spend time and measure
+                                    the omnichannel outcome of those
+                                    interactions.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Developed and maintained automated
+                                        web-scraping pipelines using custom
+                                        frameworks, streamlining data extraction
+                                        from multiple sources and enhancing
+                                        analytics workflows.
+                                    </li>
+                                </ul>
+                                <h5>Responsibilities:</h5>
+                                <ul>
+                                    <li>
+                                        Created and maintained a variety of
+                                        scraping scripts tailored to diverse
+                                        data sources.
+                                    </li>
+                                    <li>
+                                        Interacted with RESTful APIs for
+                                        structured data extraction.
+                                    </li>
+                                    <li>
+                                        Parsed HTML and XML content using tools
+                                        like HtmlAgilityPack.
+                                    </li>
+                                    <li>
+                                        Handled JSON data formats for seamless
+                                        integration into analytics systems.
+                                    </li>
+                                    <li>
+                                        Utilized regular expressions (Regex) for
+                                        efficient pattern matching and text
+                                        extraction.
+                                    </li>
+                                    <li>
+                                        Implemented effective error handling
+                                        techniques to manage network issues,
+                                        CAPTCHA challenges, and other
+                                        interruptions.
+                                    </li>
+                                </ul>
 
-                <li>Code Review: Conducting code reviews to maintain coding standards, ensuring best practices, and providing feedback to team members.</li>
-                <li>Mentorship and Skill Development: Mentoring junior team members and helping in their technical skill enhancement.</li>
-
-                <li>Conflict Resolution and Problem-Solving: Identifying and addressing blockers or conflicts to keep projects on track.</li>
-                <li>Feedback and Performance Reviews: Providing constructive feedback and conducting performance evaluations for team members.</li>
-              </ul>
-
-              <h5>Technologies used:</h5>
-              <ul class="skill_list">
-                <li class="skill__item">C#</li>
-                <li class="skill__item">ElasticSearch</li>
-                <li class="skill__item">HtmlAgilityPack</li>
-                <li class="skill__item">Puppeteer</li>
-                <li class="skill__item">ScrapySharp</li>
-                <li class="skill__item">RESTful</li>
-                <li class="skill__item">Minotaur(Internal tool)</li>
-                <li class="skill__item">Jira</li>
-                <li class="skill__item">Notion</li>
-              </ul>
-              <h5>Skills developed:</h5>
-              <ul class="skill_list">
-                <li class="skill__item">Leadership</li>
-                <li class="skill__item">Time Management</li>
-                <li class="skill__item">Decision-Making</li>
-                <li class="skill__item">Delegation</li>
-                <li class="skill__item">Mentoring</li>
-                <li class="skill__item">Conflict Resolution</li>
-                <li class="skill__item">Problem-Solving</li>
-                <li class="skill__item">Communication</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="experience">
-            <div class="experience__title">
-              Flat Rock Technology C# Developer
-            </div>
-            <div class="experience__duration">
-              Jul 2016 - Dec 2023
-            </div>
-            <br>
-            <div class="experience__description">
-              <h5>Project:</h5>
-              <p>
-                The company provides eCommerce enablement and analytics software for multichannel brands to convert global customers. With us, brands can enable commerce in the places where their shoppers spend time and measure the omnichannel outcome of those interactions.
-              </p>
-              <ul>
-                <li>Creating different types of scraping scripts using our internal tool called Minotaur</li>
-              </ul>
-              <h5>Responsibilities:</h5>
-              <ul>
-                <li>Creating and maintaining variaty of scraping scripts</li>
-                <li>API Interaction: Working with RESTful APIs for structured data extraction.</li>
-                <li>HTML and XML Parsing: Proficiency in parsing HTML/XML</li>
-                <li>JSON and Data Formatting: Handling JSON data formats</li>
-                <li>Regular Expressions (Regex): Using regex for efficient pattern matching and text extraction.</li>
-                <li>Exception Handling: Effective use of error handling techniques to manage network issues, CAPTCHA challenges, and other interruptions.</li>
-              </ul>
-              <h5>Technologies used:</h5>
-              <ul class="skill_list">
-                <li class="skill__item">C#</li>
-                <li class="skill__item">ElasticSearch</li>
-                <li class="skill__item">HtmlAgilityPack</li>
-                <li class="skill__item">Puppeteer</li>
-                <li class="skill__item">ScrapySharp</li>
-                <li class="skill__item">RESTful</li>
-                <li class="skill__item">Regex</li>
-                <li class="skill__item">Minotaur(Internal tool)</li>
-                <li class="skill__item">Jira</li>
-                <li class="skill__item">Notion</li>
-              </ul>
-              <h5>Skills developed:</h5>
-              <ul class="skill_list">
-                <li class="skill__item">Problem-Solving</li>
-                <li class="skill__item">Decision-Making</li>
-                <li class="skill__item">Time Management</li>
-                <li class="skill__item">Mentoring</li>
-                <li class="skill__item">Self-learning</li>
-                <li class="skill__item">Teamwork</li>
-                <li class="skill__item">Communication</li>
-              </ul>
-            </div>
-          </div>
-          <div class="experience__title">Personal Projects</div>
-          <div class="experience">
-            <div class="experience__title">
-              Coin Tracker Project
-            </div>
-            <!-- <div class="experience__duration">
+                                <h5>Technologies used:</h5>
+                                <ul class="skill_list">
+                                    <li class="skill__item">C#</li>
+                                    <li class="skill__item">ElasticSearch</li>
+                                    <li class="skill__item">HtmlAgilityPack</li>
+                                    <li class="skill__item">Puppeteer</li>
+                                    <li class="skill__item">ScrapySharp</li>
+                                    <li class="skill__item">RESTful</li>
+                                    <li class="skill__item">Regex</li>
+                                    <li class="skill__item">
+                                        Minotaur(Internal)
+                                    </li>
+                                    <li class="skill__item">Jira</li>
+                                    <li class="skill__item">Notion</li>
+                                </ul>
+                                <h5>Skills developed:</h5>
+                                <ul class="skill_list">
+                                    <li class="skill__item">Problem-Solving</li>
+                                    <li class="skill__item">Decision-Making</li>
+                                    <li class="skill__item">Time Management</li>
+                                    <li class="skill__item">Self-Learning</li>
+                                    <li class="skill__item">Teamwork</li>
+                                    <li class="skill__item">Communication</li>
+                                    <li class="skill__item">Flexibility</li>
+                                    <li class="skill__item">Adaptability</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="experience__title">Personal Projects</div>
+                        <div class="experience">
+                            <div class="experience__title">
+                                Coin Tracker Project
+                            </div>
+                            <!-- <div class="experience__duration">
               Oct 2023 - Dec 2023
             </div> -->
-            <br>
-            <div class="experience__description">
-              <h5>Project Summary:</h5>
-              <ul>
-                <p>The cryptocurrency tracking website was developed using ReactJS for creating a dynamic and responsive user interface, leveraging JavaScript for interactivity and logic. CSS was utilized to style the application, ensuring a visually appealing design. To manage global state efficiently, the project implemented React Context. React Router was used for seamless navigation and routing between pages. ChartJS was integrated to display cryptocurrency data in visually compelling charts. For form handling, the project used react-hook-form, ensuring a smooth user experience, combined with Zod for robust schema validation. Additionally, react-number-format was employed to format numerical data like cryptocurrency prices and values, enhancing readability.</p>
-              </ul>
-              <h5>Features:</h5>
-              <ul>
-                <li>Explore available Cryptocurrencies: View a list of cryptocurrencies, access detailed information such as current price and market cap, and stay updated with real-time market data.</li>
-                <li>User Acount Capabilities: Register/Login to unlock additional features like the portfolio tracker.</li>
-                <li>Add Transactions to your personal portfolio: Log new transactions by specifying the cryptocurrency, transaction type (buy/sell), quantity, and notes.</li>
-                <li>Portfolio Tracker: Access a summary of your transaction history with options to edit or delete transactions.</li>
-              </ul>
-              <h5>Technologies used:</h5>
-              <ul class="skill_list">
-                <li class="skill__item">ReactJs</li>
-                <li class="skill__item">HTML/CSS</li>
-                <li class="skill__item">JS</li>
-                <li class="skill__item">React Context</li>
-                <li class="skill__item">React Router</li>
-                <li class="skill__item">ChartJS</li>
-                <li class="skill__item">React Hook Form</li>
-                <li class="skill__item">Zod</li>
-              </ul>
-            </div>
-          </div>
-          <div class="experience">
-            <div class="experience__title">
-              Personal Finance Tracker
-            </div>
-            <br>
-            <div class="experience__description">
-              <h5>Project Summary:</h5>
-              <ul>
-                <p>Finance Tracker CLI is a simple command-line application that allows you to track your income and expenses. The application reads and writes transaction data to a CSV file, provides summaries over specified date ranges, and offers visualization of your data with plots.</p>
-              </ul>
-              <h5>Features:</h5>
-              <ul>
-                <li>Add new transactions</li>
-                <li>View transactions and summary within a date range</li>
-                <li>Visualize a plot within the given date range</li>
-              </ul>
-              <h5>Technologies used:</h5>
-              <ul class="skill_list">
-                <li class="skill__item">Python</li>
-                <li class="skill__item">pandas</li>
-                <li class="skill__item">matplotlib</li>
-                <li class="skill__item">OOP</li>
-              </ul>
-            </div>
-          </div>
+                            <br />
+                            <div class="experience__description">
+                                <h5>Project Summary:</h5>
+                                <ul>
+                                    <p>
+                                        The cryptocurrency tracking website was
+                                        developed using ReactJS for creating a
+                                        dynamic and responsive user interface,
+                                        leveraging JavaScript for interactivity
+                                        and logic. CSS was utilized to style the
+                                        application, ensuring a visually
+                                        appealing design. To manage global state
+                                        efficiently, the project implemented
+                                        React Context. React Router was used for
+                                        seamless navigation and routing between
+                                        pages. ChartJS was integrated to display
+                                        cryptocurrency data in visually
+                                        compelling charts. For form handling,
+                                        the project used react-hook-form,
+                                        ensuring a smooth user experience,
+                                        combined with Zod for robust schema
+                                        validation. Additionally,
+                                        react-number-format was employed to
+                                        format numerical data like
+                                        cryptocurrency prices and values,
+                                        enhancing readability.
+                                    </p>
+                                </ul>
+                                <h5>Features:</h5>
+                                <ul>
+                                    <li>
+                                        Explore available Cryptocurrencies: View
+                                        a list of cryptocurrencies, access
+                                        detailed information such as current
+                                        price and market cap, and stay updated
+                                        with real-time market data.
+                                    </li>
+                                    <li>
+                                        User Acount Capabilities: Register/Login
+                                        to unlock additional features like the
+                                        portfolio tracker.
+                                    </li>
+                                    <li>
+                                        Add Transactions to your personal
+                                        portfolio: Log new transactions by
+                                        specifying the cryptocurrency,
+                                        transaction type (buy/sell), quantity,
+                                        and notes.
+                                    </li>
+                                    <li>
+                                        Portfolio Tracker: Access a summary of
+                                        your transaction history with options to
+                                        edit or delete transactions.
+                                    </li>
+                                </ul>
+                                <h5>Technologies used:</h5>
+                                <ul class="skill_list">
+                                    <li class="skill__item">ReactJs</li>
+                                    <li class="skill__item">HTML/CSS</li>
+                                    <li class="skill__item">JS</li>
+                                    <li class="skill__item">React Context</li>
+                                    <li class="skill__item">React Router</li>
+                                    <li class="skill__item">ChartJS</li>
+                                    <li class="skill__item">React Hook Form</li>
+                                    <li class="skill__item">Zod</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="experience">
+                            <div class="experience__title">
+                                Personal Finance Tracker
+                            </div>
+                            <br />
+                            <div class="experience__description">
+                                <h5>Project Summary:</h5>
+                                <ul>
+                                    <p>
+                                        Finance Tracker CLI is a simple
+                                        command-line application that allows you
+                                        to track your income and expenses. The
+                                        application reads and writes transaction
+                                        data to a CSV file, provides summaries
+                                        over specified date ranges, and offers
+                                        visualization of your data with plots.
+                                    </p>
+                                </ul>
+                                <h5>Features:</h5>
+                                <ul>
+                                    <li>Add new transactions</li>
+                                    <li>
+                                        View transactions and summary within a
+                                        date range
+                                    </li>
+                                    <li>
+                                        Visualize a plot within the given date
+                                        range
+                                    </li>
+                                </ul>
+                                <h5>Technologies used:</h5>
+                                <ul class="skill_list">
+                                    <li class="skill__item">Python</li>
+                                    <li class="skill__item">pandas</li>
+                                    <li class="skill__item">matplotlib</li>
+                                    <li class="skill__item">OOP</li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <!-- <div class="experience mt-6">
+                        <!-- <div class="experience mt-6">
             <div class="experience__title">
               Lucrat | Participants
             </div>
@@ -277,140 +439,155 @@
               </ul>
             </div>
           </div> -->
-        </div>
-      </div>
-      <div>
-        <section class="resume__block">
-          <h3>
-            Experience
-          </h3>
+                    </div>
+                </div>
+                <div>
+                    <section class="resume__block">
+                        <h3>Experience</h3>
 
-          <div class="experience">
-            <h4 class="experience__title">
-              <a href="https://flatrocktech.com" target="_blank">Flat Rock Technology</a>
-            </h4>
+                        <div class="experience">
+                            <h4 class="experience__title">
+                                <a
+                                    href="https://flatrocktech.com"
+                                    target="_blank"
+                                    >Flat Rock Technology</a
+                                >
+                            </h4>
 
-            <div class="experience__item">
-              <p class="experience__position">
-                Team Lead
-              </p>
-              <p class="experience__duration">
-                Jan 2024 - Present
-              </p>
+                            <div class="experience__item">
+                                <p class="experience__position">Team Lead</p>
+                                <p class="experience__duration">
+                                    Jan 2024 - Present
+                                </p>
+                            </div>
 
+                            <div class="experience__item">
+                                <p class="experience__position">C# Developer</p>
+                                <p class="experience__duration">
+                                    Mar 2021 - Jan 2024
+                                </p>
+                            </div>
+                            <div class="experience__item">
+                                <p class="experience__position">
+                                    Java Developer
+                                </p>
+                                <p class="experience__duration">
+                                    Jun 2016 - Mar 2021
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience">
+                            <h4 class="experience__title">
+                                <a href="https://ardes.bg/" target="_blank"
+                                    >Ardes.bg</a
+                                >
+                            </h4>
+                            <p class="experience__position">Sales Consultant</p>
+                            <p class="experience__duration">
+                                Jun 2015 - Jun 2016
+                            </p>
+                        </div>
+                        <div class="experience">
+                            <h4 class="experience__title">
+                                <a href="http://asicdepot.com/" target="_blank"
+                                    >Asic Depot</a
+                                >
+                            </h4>
+                            <p class="experience__position">Intern</p>
+                            <p class="experience__duration">
+                                Jun 2014 - Jul 2014
+                            </p>
+                        </div>
+                    </section>
+                    <div class="resume__block education">
+                        <h3>Education</h3>
+                        <p>
+                            Bachelor degree, <br />
+                            Computer systems and technologies <br />
+                            Technical University of Varna <br />
+                        </p>
+                        <p class="experience__duration">2011-2015</p>
+                    </div>
+                    <div class="resume__block resume__block--certificates">
+                        <h3>Certificates</h3>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://softuni.bg/certificates/details/197987/ac271e77"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./images/ReactJS - October 2023 - Certificate.jpeg"
+                                        alt="SoftUni ReactJS Certificate"
+                                        class="img"
+                                    />
+                                </a>
+                                <p class="experience__position">ReactJS</p>
+                                <p class="experience__duration">
+                                    Issued by SoftUni (Oct 2023)
+                                </p>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-f0ad622e-4226-468a-8e90-d795d919372b/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./images/Udemy_ReactJS.jpg"
+                                        alt="Udemy ReactJS Certificate"
+                                        class="img"
+                                    />
+                                </a>
+                                <p class="experience__position">
+                                    React - The Complete Guide
+                                </p>
+                                <p class="experience__duration">
+                                    Issued by Udemy (Sep 2024)
+                                </p>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-b5c88d4d-f218-4b06-81a8-d75e26d27e49/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./images/Udemy_NextJS.jpg"
+                                        alt="Udemy NextJS Certificate"
+                                        class="img"
+                                    />
+                                </a>
+                                <p class="experience__position">
+                                    NextJS & React - The Complete Guide
+                                </p>
+                                <p class="experience__duration">
+                                    Issued by Udemy (Sep 2024)
+                                </p>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-736970e9-10be-4ae5-9dd4-55cdd84e1972/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./images/Udemy_CSS.jpg"
+                                        alt="Udemy CSS Certificate"
+                                        class="img"
+                                    />
+                                </a>
+                                <p class="experience__position">
+                                    Css - The Complete Guide
+                                </p>
+                                <p class="experience__duration">
+                                    Issued by Udemy (Dec 2023)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <div class="experience__item">
-              <p class="experience__position">
-                C# Developer
-              </p>
-              <p class="experience__duration">
-                Mar 2021 - Jan 2024
-              </p>
-            </div>
-            <div class="experience__item">
-              <p class="experience__position">
-                Java Developer
-              </p>
-              <p class="experience__duration">
-                Jun 2016 - Mar 2021
-              </p>
-            </div>
-          </div>
-
-          <div class="experience">
-            <h4 class="experience__title">
-              <a href="https://ardes.bg/" target="_blank">Ardes.bg</a>
-            </h4>
-            <p class="experience__position">
-              Sales Consultant
-            </p>
-            <p class="experience__duration">
-              Jun 2015 - Jun 2016
-            </p>
-          </div>
-          <div class="experience">
-            <h4 class="experience__title">
-              <a href="http://asicdepot.com/" target="_blank">Asic Depot</a>
-            </h4>
-            <p class="experience__position">
-              Intern
-            </p>
-            <p class="experience__duration">
-              Jun 2014 - Jul 2014
-            </p>
-          </div>
         </section>
-        <div class="resume__block education">
-          <h3>
-            Education
-          </h3>
-          <p>
-            Bachelor degree, <br>
-            Computer systems and technologies <br>
-            Technical University of Varna <br>
-          </p>
-          <p class="experience__duration">2011-2015</p>
-        </div>
-        <div class="resume__block resume__block--certificates">
-          <h3>
-            Certificates
-          </h3>
-          <ul>
-            <li>
-              <a href="https://softuni.bg/certificates/details/197987/ac271e77" target="_blank">
-                <img src="./images/ReactJS - October 2023 - Certificate.jpeg" alt="SoftUni ReactJS Certificate" class="img">
-              </a>
-              <p class="experience__position">
-                ReactJS
-              </p>
-              <p class="experience__duration">
-                Issued by SoftUni (Oct 2023)
-              </p>
-            </li>
-            <li>
-              <a href="https://www.udemy.com/certificate/UC-f0ad622e-4226-468a-8e90-d795d919372b/" target="_blank">
-                <img src="./images/Udemy_ReactJS.jpg" alt="Udemy ReactJS Certificate" class="img">
-              </a>
-              <p class="experience__position">
-                React - The Complete Guide
-              </p>
-              <p class="experience__duration">
-                Issued by Udemy (Sep 2024)
-              </p>
-            </li>
-
-            <li>
-              <a href="https://www.udemy.com/certificate/UC-b5c88d4d-f218-4b06-81a8-d75e26d27e49/"
-                target="_blank">
-                <img src="./images/Udemy_NextJS.jpg" alt="Udemy NextJS Certificate" class="img">
-              </a>
-              <p class="experience__position">
-                NextJS & React - The Complete Guide
-              </p>
-              <p class="experience__duration">
-                Issued by Udemy (Sep 2024)
-              </p>
-            </li>
-
-            <li>
-              <a href="https://www.udemy.com/certificate/UC-736970e9-10be-4ae5-9dd4-55cdd84e1972/"
-                target="_blank">
-                <img src="./images/Udemy_CSS.jpg" alt="Udemy CSS Certificate"
-                  class="img">
-              </a>
-              <p class="experience__position">
-                Css - The Complete Guide
-              </p>
-              <p class="experience__duration">
-                Issued by Udemy (Dec 2023)
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-</body>
-
+    </body>
 </html>
